@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #d3d3d2;
+}
+.container {
+  display: flex;
+}
+.divL,
+.divR {
+  padding: 10px;
+}
+.divL {
+  background-color: #d3d3d2;
+}
+.divR {
+  background-color: #d3d3d2;
+}
+#canvas {
+  background-color: #888888;
+}
+td {
+  background-color: #d3d3d2;
+}
+
+@media only screen and (max-width: 768px) {
+  .divL,
+  .divR {
+    float: none;
+    display: block;
+    width: 100%;
+  }
+}
